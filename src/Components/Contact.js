@@ -72,7 +72,7 @@ function ContactForm() {
         <div className="appointment-form-section">
             <h1 className="legal-siteTitle">
                 <Link to="/">
-                    Health <span className="legal-siteSign">+</span>
+                    Satyam <span className="legal-siteSign">+</span>
                 </Link>
             </h1>
 

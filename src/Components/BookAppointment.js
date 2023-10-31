@@ -49,13 +49,15 @@ function BookAppointment() {
           Specialize Treatment
         </p>
 
-        <button
-          className="text-appointment-btn"
-          type="button"
-          onClick={handleBookAppointmentClick}
-        >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-        </button>
+        <a href="https://book-appointment.healthplix.com/dr-dr-prakash-bhatt-panwadi-bhavnagar">
+          <button
+            className="text-appointment-btn"
+            type="button"
+          // onClick={handleBookAppointmentClick}
+          >
+            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          </button>
+        </a>
       </div>
     </div>
   );

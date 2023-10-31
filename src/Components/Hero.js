@@ -23,6 +23,8 @@ function Hero() {
     navigate("/appointment");
   };
 
+
+
   useEffect(() => {
     const onPageScroll = () => {
       if (window.scrollY > 600) {
@@ -51,18 +53,20 @@ function Hero() {
             disorders of the Brain, Spine, nerves and muscles." <br></br>
             <b>Emergency Number: +91 0278-6640664</b>
           </p>
-          <button
-            className="text-appointment-btn"
-            type="button"
-            onClick={handleBookAppointmentClick}
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-          </button>
+          <a href="https://book-appointment.healthplix.com/dr-dr-prakash-bhatt-panwadi-bhavnagar">
+            <button
+              className="text-appointment-btn"
+              type="button"
+              // onClick={handleBookAppointmentClick}
+            >
+              <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            </button>
+          </a>
           <br />
           <button className="text-appointment-btn" id="clock" type="button">
             <FontAwesomeIcon />{" "}
             {isLargerThan800 ? (
-              <a href="#contact" id="exceptional" className="navbar-links">
+              <a href="/contactus" id="exceptional" className="navbar-links">
                 Contact Us
               </a>
             ) : (

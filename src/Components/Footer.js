@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
+// import { color } from "framer-motion";
 
 function Footer() {
   return (
@@ -62,34 +63,16 @@ function Footer() {
           </ul>
         </div> */}
 
-        <div className="ft-list" id="contact">
-          <p className="ft-list-title">Talk To Us</p>
-          <ul className="ft-list-items">
-            <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
-            </li>
-            <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
-              </a>
-            </li>
-            <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
-            </li>
-            <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
 
       <div className="ft-copyright">
-        <p>© 2023 Satyam Neurology Hospital. Developed by Ripple Infosoft</p>
+        <p>© 2023 Satyam Neurology Hospital. Developed by <a href="https://rippleinfosoft.com">Ripple Infosoft</a></p>
 
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="#"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -106,7 +89,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="#"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -123,7 +106,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="#"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"

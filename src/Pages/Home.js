@@ -9,6 +9,7 @@ import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
 import "../Styles/maps.css";
 import YT from "../Components/YT";
+import ContactForm from "../Components/Contact";
 
 export function Home() {
   return (
@@ -27,6 +28,7 @@ export function Home() {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+      <ContactForm />
       <Doctors />
       <Footer />
     </div>
